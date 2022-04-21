@@ -9,7 +9,7 @@ body{
     /* padding: 0 420px; */
     box-sizing: border-box;
 }
-.nav, .container-1, .container-2{
+.nav, .container-1, .container-2, .footer{
     padding: 0 420px;
     box-sizing: border-box;
 }
@@ -141,7 +141,7 @@ a{
     display: flex;
     align-content: center;
     align-items: center;
-    margin: 54px 0;
+    margin: 60px 0;
 }
 .section-1 .sect-left{
     margin-right: 60px;
@@ -156,7 +156,7 @@ a{
 }
 
 .section-2{
-    margin: 54px 0;
+    margin: 60px 0;
     /* display: flex; */
 }
 .section-2 .section-title{
@@ -239,4 +239,101 @@ a{
 }
 .section-3 .sect-right{
 
+}
+
+.button-download-group{
+    margin-top: 28px;
+    display: flex;
+}
+.btn-download{
+    border-radius: 16px;
+    width: 192px;
+    height: 67px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 0 22px 0 20px;
+    box-sizing: border-box;
+    color: black;
+    border: 2px solid #E5E5E5;
+    box-shadow: 0px 2px 0px #E5E5E5;
+    background-color: white;
+    margin-right: 12px;
+}
+.button-download-icon img{
+    width: 36px;
+}
+.button-download-text{
+    /* display: flex; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 12px;
+}
+
+.footer{
+    background-color: #235390;
+    height: 925px;
+    color: white;
+}
+
+.footer .cta-2{
+    margin: 0 auto;
+    padding-top: 54px;
+    box-sizing: border-box;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .cta-2 button{
+    margin-left: 40px;
+}
+
+.footer .links{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer .links .link-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .links .link-group a{
+    font-weight: 800;
+    font-size: 15px;
+    color: #91A9C7;
+    margin-bottom: 12px;
+}
+.footer .links .link-group .head-link{
+    color: white;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.site-lang{
+    margin-top: 32px;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.site-lang a{
+    text-decoration: none;
+    color: #91A9C7;
+}
+
+.site-lang-list{
+    margin-bottom: 12px;
+}
+.site-lang-list ul{
+    display: flex;
+    list-style-type: none;
+}
+.site-lang-list ul li{
+    margin-right: 24px;
+    font-size: 14px;
+    font-weight: 700;
 }
