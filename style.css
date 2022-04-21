@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito Sans";
+    /* line-height: 0; */
+}
+
+body{
+    /* padding: 0 420px; */
+    box-sizing: border-box;
+}
+.nav, .container-1, .container-2{
+    padding: 0 420px;
+    box-sizing: border-box;
+}
+.nav{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #235390;
+    color: white;
+}
+.nav-left, .nav-right{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    /* width: 50%; */
+}
+.nav-left{
+    /* background-color: red; */
+}
+.nav-left .logo{
+    font-size: 36px;
+    font-weight: 800;
+}
+.nav-right p{
+    font-size: 15px;
+    font-weight: 600;   
+}
+
+.container-1{
+    height: 836px;
+    background-color: #235390;
+    color: white;
+}
+.cta{
+    /* margin-top: 100px; */
+    padding: 196px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: cyan; */
+    /* padding: 0 -100px; */
+}
+.cta-left{
+    /* background-color: red; */
+    /* width: 100%; */
+}
+.cta-left img{
+    width: 360px;
+}
+.cta-right{
+    /* background-color: blue; */
+}
+.cta-right div{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.cta-right div p{
+    font-size: 30px;
+    text-align: center;
+}
+
+button{
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.btn-lg{
+    width: 320px;
+    height: 48px;
+    border-radius: 12px;
+}
+.btn-pr{
+    background-color: #58CC02;
+    box-shadow: 0px 4px 0px #58A700;
+}
+.btn-sc{
+    background-color: #235390;
+    border: 2px solid #042C60;
+    box-shadow: 0px 2px 0px #042C60;
+}
+
+.languages{
+    height: 74px;
+    background-color: #0A4A82;
+}
+.hr{
+    height: 2px;
+    width: 100%;
+    background-color: #e5e5e5;
+}
+a{
+    text-decoration: none;
+}
+.section-1 .sect-left{
+    margin-right: 60px;
+}
+.section-1 .sect-link{
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+}
+.section-1 .sect-link a{
+    color: #1CB0F6;
+}
+.sect-title{
+    font-size: 22px;
+    font-weight: 800;
+}
+.sect-body{
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #777777;
+}
+.section-1{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: 54px 0;
+}
+.section-1 .sect-left{
+    margin-right: 60px;
+
+}
+.section-1 .sect-left img{
+    width: 160px;
+    /* height: 144px; */
+}
+.section-1 .sect-right{
+
+}
+
+.section-2{
+    margin: 54px 0;
+    /* display: flex; */
+}
+.section-2 .section-title{
+    font-size: 22px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 54px;
+}
+
+.section-2 .sect-center{
+    margin: 0 50px;
+}
+.section-2 .sect-center img{
+    width: 240px;
+}
+
+.section-2 .sect-title{
+    font-size: 18px;
+    /* width: 100%; */
+    /* text-align: center; */
+}
+.section-2-content{
+    display: flex;
+}
+.section-2 .sect-body{
+    font-size: 14px;
+}
+.section-2 .sect-child{
+    display: flex;
+    margin-bottom: 20px;
+}
+.section-2 .sect-child .icon img{
+    width: 42px;
+}
+.section-2 .sect-child .text{
+    margin-left: 12px;
+}
+.section-2 .sect-child .text .sect-title{
+    margin-top: 8px;
+}
+.section-2 .sect-child .text .sect-body{
+    margin-top: 8px;
+}
+
+.section-3 .sect-right{
+    margin-right: 60px;
+}
+.section-3 .sect-link{
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+}
+.section-3 .sect-link a{
+    color: #1CB0F6;
+}
+.sect-title{
+    font-size: 22px;
+    font-weight: 800;
+}
+.sect-body{
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #777777;
+}
+.section-3{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: 54px 0;
+}
+.section-3 .sect-right{
+    margin-left: 60px;
+
+}
+.section-3 .sect-right img{
+    width: 160px;
+    /* height: 144px; */
+}
+.section-3 .sect-right{
+
+}
