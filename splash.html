@@ -10,8 +10,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="class.css">
+    <style>
+        *{
+            font-family: "Nunito sans", sans-serif;
+        }
+    </style>
 </head>
-<body>
+<body id="l">
     <div class="nav">
         <div class="nav-left">
             <p class="logo">duolingo</p>
@@ -20,6 +25,9 @@
             <p>
                 SITE LANGUAGE: ENGLISH
             </p>
+            <button>
+                <img src="assets/ic-dropdown.png" alt="">
+            </button>
         </div>
     </div>
     <div class="container-1">
@@ -36,7 +44,56 @@
             </div>
         </div>
     </div>
-    <div class="languages"></div>
+
+    <div class="languages">
+        <button class="scroll-left-button" id="slb">
+            <img src="assets/navigate_before_white_24dp.png" alt="">
+        </button>
+        <div class="scrollable" id="sc">
+            <div class="scrollable-content" id="scc">
+                <a href="#" class="lang-flag">
+                    <img src="assets/flags/de.png" alt="de">
+                    <p>SPANISH</p>
+                </a>
+                <a href="#" class="lang-flag">
+                    <img src="assets/flags/de.png" alt="de">
+                    <p>SPANISH</p>
+                </a>
+                <a href="#" class="lang-flag">
+                    <img src="assets/flags/de.png" alt="de">
+                    <p>SPANISH</p>
+                </a>
+                <a href="#" class="lang-flag">
+                    <img src="assets/flags/de.png" alt="de">
+                    <p>SPANISH</p>
+                </a>
+                <a href="#" class="lang-flag">
+                    <img src="assets/flags/de.png" alt="de">
+                    <p>SPANISH</p>
+                </a>
+                <a href="#" class="lang-flag">
+                    <img src="assets/flags/de.png" alt="de">
+                    <p>SPANISH</p>
+                </a>
+                <a href="#" class="lang-flag">
+                    <img src="assets/flags/de.png" alt="de">
+                    <p>SPANISH</p>
+                </a>
+                <a href="#" class="lang-flag">
+                    <img src="assets/flags/de.png" alt="de">
+                    <p>SPANISH</p>
+                </a>
+                <a href="#" class="lang-flag">
+                    <img src="assets/flags/de.png" alt="de">
+                    <p>SPANISH</p>
+                </a>
+            </div>
+        </div>
+        <button class="scroll-right-button" id="srb">
+            <img src="assets/navigate_next_white_24dp.png" alt="">
+        </button>
+    </div>
+
     <div class="container-2">
 
         <div class="section-1">
@@ -352,36 +409,39 @@
             <p class="fs-14 fw-bd" style="margin-bottom: 24px;">Site language:</p>
             <div class="site-lang-list">
                 <ul>
-                    <li><a href="#">Cestina</a></li>
+                    <li><a href="#">العربية</a></li>
+                    <li><a href="#">Čeština</a></li>
                     <li><a href="#">Deutsch</a></li>
+                    <li><a href="#">Ελληνικά</a></li>
                     <li><a href="#">English</a></li>
-                    <li><a href="#">English</a></li>
-                    <li><a href="#">English</a></li>
-                    <li><a href="#">English</a></li>
-                    <li><a href="#">English</a></li>
-                    <li><a href="#">English</a></li>
-                    <li><a href="#">English</a></li>
-                    <li><a href="#">English</a></li>
-                    <li><a href="#">English</a></li>
-                    <li><a href="#">English</a></li>
+                    <li><a href="#">Español</a></li>
+                    <li><a href="#">Français</a></li>
+                    <li><a href="#">Magyar</a></li>
+                    <li><a href="#">Bahasa Indonesia</a></li>
+                    <li><a href="#">Italiano</a></li>
+                    <li><a href="#">日本語</a></li>
+                    <li><a href="#">한국어</a></li>
                 </ul>
             </div>
             <div class="site-lang-list">
                 <ul>
-                    <li><a href="#">Cestina</a></li>
-                    <li><a href="#">Deutsch</a></li>
-                    <li><a href="#">English</a></li>
-                    <li><a href="#">English</a></li>
-                    <li><a href="#">English</a></li>
-                    <li><a href="#">English</a></li>
-                    <li><a href="#">English</a></li>
-                    <li><a href="#">English</a></li>
-                    <li><a href="#">English</a></li>
-                    <li><a href="#">English</a></li>
+                    <li><a href="#">Nederlands</a></li>
+                    <li><a href="#">Polski</a></li>
+                    <li><a href="#">Português</a></li>
+                    <li><a href="#">Română</a></li>
+                    <li><a href="#">Pусский</a></li>
+                    <li><a href="#">ภาษาไทย</a></li>
+                    <li><a href="#">Tagalog</a></li>
+                    <li><a href="#">Türkçe</a></li>
+                    <li><a href="#">Українською</a></li>
+                    <li><a href="#">Tiếng Việt</a></li>
+                    <li><a href="#">中文</a></li>
                 </ul>
             </div>
         </div>
 
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

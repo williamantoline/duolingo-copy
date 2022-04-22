@@ -9,7 +9,7 @@ body{
     /* padding: 0 420px; */
     box-sizing: border-box;
 }
-.nav, .container-1, .container-2, .footer{
+.nav, .container-1, .container-2, .languages, .footer{
     padding: 0 420px;
     box-sizing: border-box;
 }
@@ -37,14 +37,23 @@ body{
 .nav-left .logo{
     font-size: 36px;
     font-weight: 800;
+    display: flex;
+    align-items: center;
 }
 .nav-right p{
     font-size: 15px;
-    font-weight: 600;   
+    font-weight: 800; 
+}
+.nav-right button{
+    background: none;
+    border: 0;
+}
+.nav-right button img{
+    width: 28px;
 }
 
 .container-1{
-    height: 836px;
+    height: 824px;
     background-color: #235390;
     color: white;
 }
@@ -106,7 +115,68 @@ button{
 .languages{
     height: 74px;
     background-color: #0A4A82;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    /* display: flex; */
+    /* align-content: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
 }
+.languages .scrollable{
+    overflow-y: scroll;
+    /* overflow-x: hidden; */
+    /* background-color: red; */
+    /* height: 100%; */
+    height: 74px;
+    margin: 0 20px;
+    /* padding: 0 36px; */
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    /* justify-content: center; */
+}
+.languages .scrollable .scrollable-content{
+    /* height: 74px; */
+    /* background-color: cyan; */
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+.languages .scrollable .scrollable-content .lang-flag{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 54px;
+    /* background-color: yellow; */
+    margin-right: 12px;
+}
+
+.languages .scrollable .scrollable-content .lang-flag img{
+    width: 40px;
+    margin: 0 12px 0 6px;
+}
+.languages .scrollable .scrollable-content .lang-flag p{
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+    margin-right: 12px;
+}
+.languages button{
+    background: none;
+    border: 0;
+    width: 42px;
+}
+.languages button img{
+    width: 42px;
+}
+
+.scroll-left-button{
+
+}
+
 .hr{
     height: 2px;
     width: 100%;
@@ -316,7 +386,7 @@ a{
 
 .site-lang{
     margin-top: 32px;
-    padding: 0 40px;
+    /* padding: 0 20px; */
     box-sizing: border-box;
 }
 
