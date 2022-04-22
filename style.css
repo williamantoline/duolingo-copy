@@ -56,6 +56,8 @@ body{
     height: 824px;
     background-color: #235390;
     color: white;
+    background-image: url("assets/star-pattern.svg");
+
 }
 .cta{
     /* margin-top: 100px; */
@@ -345,6 +347,8 @@ a{
     background-color: #235390;
     height: 925px;
     color: white;
+    background-image: url("assets/star-pattern.svg");
+
 }
 
 .footer .cta-2{
